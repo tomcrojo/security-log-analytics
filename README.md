@@ -153,8 +153,8 @@ El output no es solo un CSV. Es un dashboard HTML renderizado que responde pregu
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tommcrojo/middleware-analytics.git
-cd middleware-analytics
+git clone https://github.com/tomcrojo/security-log-analytics.git
+cd security-log-analytics
 ```
 
 2. Instalar dependencias:
@@ -281,7 +281,7 @@ El reporte incluye:
 ## Autor
 
 **Tomás Campoy Rojo**
-- GitHub: [@tommcrojo](https://github.com/tommcrojo)
+- GitHub: [@tomcrojo](https://github.com/tomcrojo)
 
 ---
 
