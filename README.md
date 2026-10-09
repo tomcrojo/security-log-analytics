@@ -10,16 +10,7 @@ Pipeline ETL automatizado para transformar logs crudos de seguridad en inteligen
 
 ## ⚡ Desempeño: Polars vs Pandas
 
-### Caso de Estudio Breve: Procesando 50,000 Registros de Log
-
-| Métrica | Pandas | Polars | Mejora |
-|---------|--------|--------|--------|
-| **Lectura CSV** | 145ms | 28ms | 5.2x más rápido |
-| **Conversión de Tipos** | 82ms | 12ms | 6.8x más rápido |
-| **Filtrado & Agregación** | 156ms | 21ms | 7.4x más rápido |
-| **Tiempo Total Pipeline** | **383ms** | **61ms** | **6.3x más rápido** |
-
-**Insight Clave:** Al procesar 50,000 logs mensuales, Polars reduce la ejecución del pipeline de 383ms a 61ms—una **mejora de rendimiento de 6.3x**.
+El repositorio incluye un benchmark reproducible (`benchmarks/compare_polars_pandas.py`) que compara lectura CSV, conversión de tipos y filtrado/agregación en Pandas y Polars sobre datos de log sintéticos. Ejecútalo en tu máquina para ver la diferencia.
 
 **¿Por qué Polars?**
 - **Operaciones Vectorizadas**: Escrito en Rust con optimizaciones zero-copy
